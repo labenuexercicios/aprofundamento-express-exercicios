@@ -1,30 +1,23 @@
-# Exercício 2
-Agora vamos praticar o método PUT, criando endpoints para automatizar a manipulação dos dados do arquivo database.ts.
+# Exercício 3
+Agora vamos praticar o método DELETE, criando endpoints para automatizar a manipulação dos dados do arquivo database.ts.
 
 Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (caminho feliz).
 
 Obs: as alterações feitas nos dados mockados existirão apenas enquanto o **servidor estiver de pé**. Ao reiniciar o servidor, os dados serão os originais e **não incluírão as mudanças**.
 
 
-## Edit User by id
-- method HTTP (`PUT`)
+## Delete User by id
+- method HTTP (`DELETE`)
 - path ("`/user/:id`")
-- body
-    - email *(parâmetro opcional)*
-    - password *(parâmetro opcional)*
 - response
     - status 200
-    - "Cadastro atualizado com sucesso"
+    - "User apagado com sucesso"
 
-## Edit Product by id
-- method HTTP (`PUT`)
+## Delete Product by id
+- method HTTP (`DELETE`)
 - path ("`/product/:id`")
-- body
-    - name *(parâmetro opcional)*
-    - price *(parâmetro opcional)*
-    - category *(parâmetro opcional)*
 - response
     - status 200
-    - "Produto atualizado com sucesso"
+    - "Produto apagado com sucesso"
 
 Lembre-se de referenciar o material para ordenar as rotas corretamente ;)
