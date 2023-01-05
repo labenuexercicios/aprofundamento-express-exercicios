@@ -1,4 +1,4 @@
-# Exercício 3
+# Exercício 2
 Agora vamos praticar o método DELETE, criando endpoints para automatizar a manipulação dos dados do arquivo database.ts.
 
 Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (caminho feliz).
