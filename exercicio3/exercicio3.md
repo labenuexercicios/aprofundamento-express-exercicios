@@ -7,15 +7,15 @@ Obs: as alterações feitas nos dados mockados existirão apenas enquanto o **se
 
 
 ## Delete User by id
-- method HTTP (DELETE)
-- path ("/user/:id")
+- method HTTP (`DELETE`)
+- path ("`/user/:id`")
 - response
     - status 200
     - "User apagado com sucesso"
 
 ## Delete Product by id
-- method HTTP (DELETE)
-- path ("/product/:id")
+- method HTTP (`DELETE`)
+- path ("`/product/:id`")
 - response
     - status 200
     - "Produto apagado com sucesso"
