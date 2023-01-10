@@ -8,7 +8,7 @@ Obs: as alterações feitas nos dados mockados existirão apenas enquanto o **se
 
 ## Edit User by id
 - method HTTP (`PUT`)
-- path ("`/user/:id`")
+- path ("`/users/:id`")
 - body
     - email *(parâmetro opcional)*
     - password *(parâmetro opcional)*
@@ -18,7 +18,7 @@ Obs: as alterações feitas nos dados mockados existirão apenas enquanto o **se
 
 ## Edit Product by id
 - method HTTP (`PUT`)
-- path ("`/product/:id`")
+- path ("`/products/:id`")
 - body
     - name *(parâmetro opcional)*
     - price *(parâmetro opcional)*
