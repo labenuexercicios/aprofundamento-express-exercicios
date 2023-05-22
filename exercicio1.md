@@ -3,7 +3,7 @@ Vamos continuar criando endpoints para automatizar a manipulação dos dados do 
 Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (caminho feliz).
 
 # Exercício 1
-Implemente as funcionalidades de deleção e lembre-se de referenciar o material para ordenar as rotas corretamente.
+Implemente a funcionalidade de deleção de user e lembre-se de referenciar o material para ordenar as rotas corretamente.
 
 ## Delete User by id
 - method HTTP (`DELETE`)
@@ -11,10 +11,3 @@ Implemente as funcionalidades de deleção e lembre-se de referenciar o material
 - response
     - status 200
     - "User apagado com sucesso"
-
-## Delete Product by id
-- method HTTP (`DELETE`)
-- path ("`/products/:id`")
-- response
-    - status 200
-    - "Produto apagado com sucesso"
